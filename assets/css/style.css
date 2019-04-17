@@ -41,6 +41,23 @@ hr {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.logo:link {
+    color:white;
+}
+  
+.logo:visited {
+    color:white;
+}
+  
+.logo:hover {
+    text-decoration: underline;
+  }
+  
+.logo:active {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
 #main {
     margin: 0 auto;
     width: 960px;
