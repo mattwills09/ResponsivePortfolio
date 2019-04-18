@@ -21,6 +21,13 @@ body {
     margin:0;
 }
 
+.currentProjects {
+    border:2px solid darkblue;
+    padding:10px;
+    margin-top:15px;
+
+}
+
 hr {
     color:#dddddd;
     height:1px;
