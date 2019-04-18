@@ -57,12 +57,16 @@ hr {
 }
   
 .logo:hover {
-    text-decoration: underline;
+    text-shadow: 1px 1px black;
   }
   
 .logo:active {
-    text-decoration: underline;
-    text-decoration-style: dashed;
+    color:lightgray;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 #main {
